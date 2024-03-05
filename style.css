@@ -1,0 +1,71 @@
+
+* {
+    font-family: Verdana, sans-serif; 
+    font-size: 15px;
+}
+
+body {
+    background-color: white;
+    /* background-color: lightblue; */
+  }
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+}
+
+tr {
+    border-bottom: 1px solid; 
+    font-family: Arial, sans-serif;
+    /* text-align: left; */
+}
+
+th {
+    text-align: left;
+}
+
+.prijs {
+    text-align: right;
+}
+
+th, td {
+    border: 1px solid #888;
+    padding: 10px;
+}
+
+
+
+/* Alternatives:
+
+table, th {
+    border: 1px solid black;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid black;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+
+Voor horizontal dividers (de lijnen zijn dan wel onderbroken; want het zijn lijnen onder elke element):
+
+th, td {
+    border-bottom: 1px solid; 
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+
+De hele tabel omlijnen:
+table {
+    border: 1px solid; 
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+*/
+
+
